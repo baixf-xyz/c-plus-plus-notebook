@@ -126,5 +126,64 @@
     <ClCompile Include="37 二维数组组名.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="38 二维数组应用案例.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="39 函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="40 值传递.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="41 函数样式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="42 函数声明.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="43 函数的分文件编写-main函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="swap_f.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="44 指针 .cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="45 指针占用的内存空间.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="46 空指针与野指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="47 const修饰指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="48 指针和数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="49 指针和函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="50 指针、函数、数组综合应用 .cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bubble_sort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="print_arrary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="swap_f.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bubble_sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="print_arrary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

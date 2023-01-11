@@ -1,7 +1,7 @@
 # include <iostream>
 using namespace std;
 
-int main()
+int main35()
 {
 	int arr[] = { 68,58,64,21,53,46,95,64,82,35 };
 	//int arr[] = { 10,2,3,4,5,6,7,8,9 };
