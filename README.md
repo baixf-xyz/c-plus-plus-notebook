@@ -3315,6 +3315,8 @@ int main() {
 
 **例如：**每个老师辅导一个学员，一个老师的结构体中，记录一个学生的结构体
 
+![image-20230112112758767](C:\Users\baixf\AppData\Roaming\Typora\typora-user-images\image-20230112112758767.png)
+
 **示例：**
 
 ```C++
@@ -3440,6 +3442,9 @@ int main() {
 **示例：**
 
 ```C++
+# include <iostream>
+using namespace std;
+
 //学生结构体定义
 struct student
 {
@@ -3449,8 +3454,9 @@ struct student
 	int score;    //分数
 };
 
-//const使用场景
-void printStudent(const student *stu) //加const防止函数体中的误操作
+//将函数中的形参改为指针，可以减少内存空间，而且不会复制一个新的副本
+//const使用场景：常量指针不可以改值，但可以改变指向
+void printStudent(const student* stu) //加const防止函数体中的误操作
 {
 	//stu->age = 100; //操作失败，因为加了const修饰
 	cout << "姓名：" << stu->name << " 年龄：" << stu->age << " 分数：" << stu->score << endl;
@@ -3461,6 +3467,7 @@ int main() {
 
 	student stu = { "张三",18,100 };
 
+	//值传递可行，但是浪费空间
 	printStudent(&stu);
 
 	system("pause");
@@ -3491,7 +3498,7 @@ int main() {
 
 最终打印出老师数据以及老师所带的学生数据。
 
-
+![image-20230112120147138](C:\Users\baixf\AppData\Roaming\Typora\typora-user-images\image-20230112120147138.png)
 
 **示例：**
 

@@ -2,7 +2,7 @@
 using namespace std;
 # include "bubble_sort.h"
 //函数的定义
-void bubble_sort(int arr[], int len)
+void bubble_sort(int *arr, int len)
 {
 	for (int i = 0; i < len; i++)
 	{
