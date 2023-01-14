@@ -37,7 +37,7 @@ void printHeros(hero arr[], int len)
 		cout << "姓名： " << arr[i].name << " 性别： " << arr[i].sex << " 年龄： " << arr[i].age << endl;
 	}
 }
-int main()
+int main58()
 {
 	//2.创建数组存放五名英雄
 	struct hero harray[] = { {"刘备",22,"男"},{"关羽",22,"男"} ,{"张飞",20,"男"} ,{"赵云",21,"男"} ,{"貂蝉",19,"女"} };
