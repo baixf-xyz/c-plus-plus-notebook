@@ -57,7 +57,7 @@ void test() {
 
 }
 
-int main() {
+int main92() {
 
 	test();
 
